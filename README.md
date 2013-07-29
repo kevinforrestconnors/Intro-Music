@@ -23,4 +23,8 @@ Edit the file, after the various hashtags but before 'exit 0' write:
 To make rc.local executable in terminal type:
 
     chmod +x /etc/rc.local
+    
+To make rc.local **un**-executable in terminal type:
+
+    chmod -x /etc/rc.local
 

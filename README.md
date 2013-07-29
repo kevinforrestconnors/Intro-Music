@@ -24,7 +24,7 @@ To make rc.local executable in terminal type:
 
     chmod +x /etc/rc.local
     
-To make rc.local **un**-executable in terminal type:
+To make rc.local **un**-executable (it won't start on boot) in terminal type:
 
     chmod -x /etc/rc.local
 
